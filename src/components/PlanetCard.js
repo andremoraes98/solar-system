@@ -2,14 +2,15 @@ import React from 'react';
 
 class PlanetCards extends React.Component {
   render() {
-    const { planetName } = this.props;
-    const { planetImage } = this.props;
+    const { planet } = this.props;
+    const { name } = planet;
+    const { image } = planet;
     return (
       <div data-testid="planet-card">
-        <p>
-          { planetName }
+        <p data-testid="planet-name">
+          { name }
         </p>
-        <img src={ planetImage } alt={ `Planeta ${planetName}` } />
+        <img src={ image } alt={ `Planeta ${name}` } />
       </div>
     );
   }
