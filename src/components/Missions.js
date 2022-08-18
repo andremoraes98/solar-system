@@ -6,7 +6,10 @@ import missions from '../data/missions';
 class Missions extends React.Component {
   render() {
     return (
-      <div data-testid="missions">
+      <div
+        data-testid="missions"
+        className="missions"
+      >
         <Title headline="Missões" />
         { missions
           .map((mission, index) => (<MissionCard

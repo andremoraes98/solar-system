@@ -9,7 +9,10 @@ class MissionCard extends React.Component {
     const { destination } = this.props;
 
     return (
-      <div data-testid="mission-card">
+      <div
+        data-testid="mission-card"
+        className="mission-card"
+      >
         <p data-testid="mission-name">
           { name }
         </p>
