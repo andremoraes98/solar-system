@@ -1,6 +1,6 @@
 # Projeto Solar System
 
-<img src="../../images/SOLAR_SYSTEM.png" alt="Project-logo">
+![Project Logo](./SOLAR_SYSTEM.png)
 
 Este foi o primeiro projeto em React desenvolvido. Nele, fomos responsáveis por criar uma aplicação ilustrativa, contendo todos os planetas do sistema solar e algumas missões que aconteceram ao longo da história.
 
